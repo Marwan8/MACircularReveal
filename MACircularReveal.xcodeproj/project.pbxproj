@@ -12,6 +12,7 @@
 		590745D41FD3324E0066D384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590745D21FD3324E0066D384 /* Main.storyboard */; };
 		590745D61FD3324E0066D384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590745D51FD3324E0066D384 /* Assets.xcassets */; };
 		590745D91FD3324E0066D384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590745D71FD3324E0066D384 /* LaunchScreen.storyboard */; };
+		590745E11FD3384A0066D384 /* MACirculerReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590745E01FD3384A0066D384 /* MACirculerReveal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		590745D51FD3324E0066D384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		590745D81FD3324E0066D384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		590745DA1FD3324E0066D384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590745E01FD3384A0066D384 /* MACirculerReveal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MACirculerReveal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				590745D51FD3324E0066D384 /* Assets.xcassets */,
 				590745D71FD3324E0066D384 /* LaunchScreen.storyboard */,
 				590745DA1FD3324E0066D384 /* Info.plist */,
+				590745E01FD3384A0066D384 /* MACirculerReveal.swift */,
 			);
 			path = MACircularReveal;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590745E11FD3384A0066D384 /* MACirculerReveal.swift in Sources */,
 				590745D11FD3324E0066D384 /* ViewController.swift in Sources */,
 				590745CF1FD3324E0066D384 /* AppDelegate.swift in Sources */,
 			);
@@ -260,10 +264,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MACircularReveal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marwan.MACircularReveal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +280,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MACircularReveal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marwan.MACircularReveal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +311,7 @@
 				590745DF1FD3324E0066D384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
