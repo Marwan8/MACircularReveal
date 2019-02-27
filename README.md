@@ -7,6 +7,10 @@ A Circular Reveal with animation effect written in Swift
 ![alt tag](https://imgur.com/gYr95DN.gif)
 
 
+# Installation
+
+pod 'MACircularReveal'
+
 #Author
 
 Marwan Ayman, marwan.ayman8@gmail.com
